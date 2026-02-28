@@ -1,50 +1,39 @@
 "@context":
   "@vocab": "https://schema.org/"
   "proc": "https://example.org/procurement#"
-  "far": "https://www.acquisition.gov/far/"
-  "tfh": "https://techfarhub.usds.gov/"
+  "uk": "https://www.gov.uk/"
 
 "@id": "https://example.org/procurement-digital-regulations"
 "@type": "Dataset"
-"name": "Digital Procurement Regulations & Agile Frameworks (2026)"
-"description": "Mapping of US Federal Acquisition Regulations (FAR), TechFAR Hub, and FAI certifications to agile and modular digital procurement."
+"name": "Digital Procurement Regulations: US & UK Comparison (2026)"
 
-"regulatory_frameworks":
-  - "@id": "far:Part39"
-    "name": "FAR Part 39 - Acquisition of ICT"
-    "key_elements":
-      - "name": "Modular Contracting"
-        "definition": "Acquiring systems in successive, interoperable increments."
-      - "name": "Accessibility (Section 508)"
-        "description": "Enforceable standards for inclusive design."
+"uk_frameworks":
+  - "@id": "uk:TCoP"
+    "name": "Technology Code of Practice (TCoP)"
+    "description": "13-point standard for designing, building, and buying technology in government."
+    "key_points":
+      - "1. Define user needs"
+      - "2. Make things accessible and inclusive"
+      - "3. Be open and use open source"
+      - "4. Make use of open standards"
+      - "5. Use cloud first"
+      - "11. Define your purchasing strategy (Modular/Agile preference)"
 
-"professional_certifications":
-  - "@id": "proc:FAC-C-DS"
-    "name": "FAC-C-Digital Services (FAC-C-DS)"
-    "issuer": "Federal Acquisition Institute (FAI)"
-    "description": "Core-Plus specialization for contracting professionals performing digital services procurement."
-    "training_program": "DITAP (Digital IT Acquisition Professional)"
+  - "@id": "uk:ProcurementAct2023"
+    "name": "Procurement Act 2023"
+    "effective": "February 2025"
+    "reform_goals":
+      - "Competitive Flexible Procedure: Allows buyers to adapt processes to the market."
+      - "Central Digital Platform: Unified registration and tender access."
+      - "Removing SME Barriers: Explicit mandate to consider and reduce barriers for smaller providers."
 
-"acquisition_lifecycle_agile":
-  - "@id": "tfh:lifecycle"
-    "name": "TechFAR Hub Agile Lifecycle"
-    "phases":
-      - "phase": "Pre-Solicitation"
-        "focus": "Agile Team formation, Market Research, Requirements Development (Agile Estimator)."
-      - "phase": "Solicitation"
-        "focus": "Contract Design, Performance-Based Contracting, 8(a) Digital Service Initiative."
-      - "phase": "Evaluation"
-        "focus": "Technical Evaluation (Demo-based), Price Evaluation (Comparative Analysis)."
-      - "phase": "Contract Administration"
-        "focus": "Agile Quality Assurance, Terminating Agile Contracts (managing pivot risks)."
-
-"special_initiatives":
-  - "name": "8(a) Digital Service Initiative"
-    "partner": "USDS & SBA"
-    "description": "Low-risk gateway for agencies to buy digital services from small/diverse businesses."
-
-"ditap_alignment":
-  - "module": "Module 0: Getting Started"
-    "focus": "Professionalization & becoming a change ambassador."
-  - "module": "Module 3: How Do You Buy?"
-    "focus": "Applying the TechFAR Hub lifecycle and modular contracting techniques."
+"digital_standards_comparison":
+  - "theme": "Openness"
+    "usa": "Encouraged through RFO and TechFAR guidance."
+    "uk": "Mandatory via TCoP point 3 (Open Source) and 4 (Open Standards)."
+  - "theme": "Cloud"
+    "usa": "FedRAMP certification focus."
+    "uk": "Cloud First policy (evaluate cloud solutions before all other options)."
+  - "theme": "Modularity"
+    "usa": "Modular Contracting (FAR 39.002)."
+    "uk": "Lean Sourcing and 'Red Lines' (IT contracts capped at £100m)."

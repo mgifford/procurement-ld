@@ -1,42 +1,32 @@
 # Agreement & Disagreement Analysis: Global Procurement 2026
 
-This document highlights the common ground and points of divergence in government procurement best practices across the EU, North America (USA/Canada), and Oceania (Australia/NZ).
+This document highlights the common ground and points of divergence in government procurement best practices across the EU, UK, USA, Canada, and Oceania.
 
 ## Areas of Agreement (Global Consensus)
 
-There is a strong global consensus on the foundational "Rules of the Game":
+1.  **Transparency**: Universally recognized as the "Anti-Corruption Engine."
+2.  **Outcome-Based Focus**: Moving from input-buying (hours) to output-buying (results).
+3.  **Digital Standards**: Consensus on **Open Standards** and **Accessibility** as non-negotiable requirements for government software.
+4.  **Modular Contracting**: Recognition that large, single-vendor digital contracts create unacceptable risk and "vendor lock-in."
 
-1.  **Transparency**: Every major government agrees that proactive disclosure of data is essential for building public trust and preventing corruption.
-2.  **Value for Money (VfM)**: Moving away from "Lowest Price Wins" to a more holistic definition that includes quality, lifecycle cost, and strategic utility.
-3.  **Digital Maturity**: The necessity of e-procurement systems and the move toward AI-augmented analysis is a shared priority.
-4.  **Accessibility**: Mandating accessible software design has become a global standard, largely driven by procurement requirements (e.g., Section 508 in the US, EN 301 549 in the EU).
-5.  **Modular & Agile**: A growing recognition that large "monolithic" contracts for digital services fail. The move toward modular contracting and interoperable increments is now reflected in major regulations like FAR Part 39.
+## Areas of Disagreement (Regional Specifics)
 
-## Areas of Disagreement (Points of Divergence)
+### 1. The UK's "Social Value" vs. USA's "Domestic Preference"
+-   **UK**: The **Social Value Act 2012** and **Procurement Act 2023** emphasize *local* benefit, including job creation and environmental impact, but within an open competitive framework.
+-   **USA**: The **Buy American Act** and **Sovereign Capability** trends prioritize *national* industrial base protection, sometimes at the expense of global market efficiency.
 
-The biggest differences emerge in *how* procurement is used as an economic lever:
+### 2. Post-Brexit Agility
+-   **UK**: The **Procurement Act 2023** (effective 2025) represents a clean break from EU-derived rules, moving toward a "Competitive Flexible Procedure" that allows buyers more freedom to design processes that fit the market.
+-   **EU**: Remains the most regulated and standardized environment, prioritizing single-market stability and rigorous non-discrimination rules.
 
-### 1. Open Markets vs. Domestic Preference
--   **EU / UK**: Strongly favor open, competitive single markets with strict regulations against favoritism.
--   **USA**: Increasing divergence toward **Domestic Preference** (e.g., *Buy American Act*), prioritizing industrial base resilience over global price optimization.
--   **Canada / Australia**: Hybrid approach that balances open trade obligations with strong local/sovereign capability mandates.
+### 3. Digital Maturity Levers
+-   **UK (CDDO)**: Strong central mandates like the **Technology Code of Practice** (TCoP) and **Cloud First**.
+-   **USA (USDS)**: Focuses on professionalizing the workforce (FAC-C-DS) and providing "playbooks" (TechFAR Hub) to navigate the existing regulation.
 
-### 2. Social Value Definitions
--   **Oceania (AUS/NZ) & Canada**: Leading the way in **Indigenous and Reconciliation-driven procurement**. They use mandatory targets (e.g., Australia's IPP, NZ's Te Kupenga) to shape their economies.
--   **Europe**: Focuses more on **Environmental Sustainability** (Green Public Procurement) as the primary "extra-commercial" driver.
--   **USA**: Historically focused on **Small Business (SBA)** and **M/WBE** set-asides, with an increasing shift toward **Cybersecurity & Sovereignty** as non-negotiable requirements.
+## Summary: Region-at-a-Glance
 
-### 3. Regulation vs. Agility
--   **Europe**: Tends to be more highly regulated with standardized frameworks (MEAT).
--   **USA**: Undergoing a **Revolutionary FAR Overhaul (RFO)** to shift from a rule-based system to a principle-based, outcome-oriented framework. This explicitly encourages contracting officer discretion and managed risk-taking in digital procurement.
-
-## Summary
-
-| Feature | Europe | USA | Canada / AUS / NZ |
+| Feature | Europe (EU) | United Kingdom (UK) | USA |
 | :--- | :--- | :--- | :--- |
-| **Primary Lever** | Regulation & Sustainability | Domestic Resilience & Security | Social Equity & Indigenous Inclusion |
-| **Market Stance** | Open / Single Market | Protectionist / Preference-based | Hybrid / Economic Shaping |
-| **Tech Focus** | Standards & Interoperability | Security & Sovereignty | Outcome-Based & Specialist Access |
-| **Agile Maturity** | Standardized Frameworks | RFO (Principle-Based) | Experimental / Agile First |
-
-While the *principles* of fairness and transparency are universally claimed, the *application* of procurement as a "Market Shaper" varies significantly based on regional geopolitical and social priorities.
+| **Primary Lever** | Regulation & Single Market | **Social Value** & Flexibility | **Domestic Preference** & Security |
+| **Digital Standards** | Interoperability (EIF) | **TCoP** (13 Points) | FedRAMP & Modular (Part 39) |
+| **Agile Maturity** | Standardized | **High** (Post-2023 Act) | **High** (RFO shift) |
