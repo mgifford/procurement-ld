@@ -1,32 +1,30 @@
 # Agreement & Disagreement Analysis: Global Procurement 2026
 
-This document highlights the common ground and points of divergence in government procurement best practices across the EU, UK, USA, Canada, and Oceania.
+This document highlights common ground and points of divergence in government procurement best practices.
 
 ## Areas of Agreement (Global Consensus)
 
-1.  **Transparency**: Universally recognized as the "Anti-Corruption Engine."
-2.  **Outcome-Based Focus**: Moving from input-buying (hours) to output-buying (results).
-3.  **Digital Standards**: Consensus on **Open Standards** and **Accessibility** as non-negotiable requirements for government software.
-4.  **Modular Contracting**: Recognition that large, single-vendor digital contracts create unacceptable risk and "vendor lock-in."
+1.  **Transparency & Accountability**: Universally mandated to build public trust.
+2.  **Best Value**: Consensus on balancing quality and price with long-term socio-economic and environmental goals.
+3.  **Modular & Iterative**: Growing support for breaking large contracts into smaller, interoperable pieces (e.g., FAR 39, TBS 4.3.4.5).
+4.  **Accessibility**: Mandating inclusive design (Section 508, TBS 4.2.7.1).
 
 ## Areas of Disagreement (Regional Specifics)
 
-### 1. The UK's "Social Value" vs. USA's "Domestic Preference"
--   **UK**: The **Social Value Act 2012** and **Procurement Act 2023** emphasize *local* benefit, including job creation and environmental impact, but within an open competitive framework.
--   **USA**: The **Buy American Act** and **Sovereign Capability** trends prioritize *national* industrial base protection, sometimes at the expense of global market efficiency.
+### 1. Canada & USA: Cross-Border Reflections
+-   **Historical Alignment**: The **Canadian Free Trade Agreement (CFTA)** Chapter Five reflects shared desires for transparent and efficient procurement access, similar to US federal principles.
+-   **Protectionism**: While both use preference-based systems (**Buy American** vs **Buy Canadian / Canadian Value-Added**), the USA prioritizes industrial base protection, while Canada balances this with **Indigenous Participation Targets (5%)**.
 
-### 2. Post-Brexit Agility
--   **UK**: The **Procurement Act 2023** (effective 2025) represents a clean break from EU-derived rules, moving toward a "Competitive Flexible Procedure" that allows buyers more freedom to design processes that fit the market.
--   **EU**: Remains the most regulated and standardized environment, prioritizing single-market stability and rigorous non-discrimination rules.
+### 2. The United Kingdom: Post-Brexit Freedom
+-   **Agility**: The UK's **Procurement Act 2023** moves faster toward "Competitive Flexible Procedures" than the more rule-based systems in Canada and the USA.
 
-### 3. Digital Maturity Levers
--   **UK (CDDO)**: Strong central mandates like the **Technology Code of Practice** (TCoP) and **Cloud First**.
--   **USA (USDS)**: Focuses on professionalizing the workforce (FAC-C-DS) and providing "playbooks" (TechFAR Hub) to navigate the existing regulation.
+### 3. Indigenous Participation
+-   **Global Leaders**: Canada (**5% Target**), Australia (**IPP**), and New Zealand (**Te Kupenga**) are the global benchmark for reconciliation-driven procurement, a theme that is less prominent in EU or US federal-wide policies.
 
-## Summary: Region-at-a-Glance
+## Summary Table
 
-| Feature | Europe (EU) | United Kingdom (UK) | USA |
-| :--- | :--- | :--- | :--- |
-| **Primary Lever** | Regulation & Single Market | **Social Value** & Flexibility | **Domestic Preference** & Security |
-| **Digital Standards** | Interoperability (EIF) | **TCoP** (13 Points) | FedRAMP & Modular (Part 39) |
-| **Agile Maturity** | Standardized | **High** (Post-2023 Act) | **High** (RFO shift) |
+| Feature | UK | USA | Canada | New Zealand |
+| :--- | :--- | :--- | :--- | :--- |
+| **Social Focus** | Social Value | Domestic Resilience | Indigenous (5%) | Māori Economy |
+| **Tech Lever** | TCoP & Cloud First | FAR 39 & RFO | TBS Unbundling | Te Kupenga |
+| **Market Stance** | Flexible / Open | Protectionist | Hybrid / Balanced | Social / Balanced |

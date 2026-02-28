@@ -13,12 +13,8 @@
     "focus": "Social Value, Post-Brexit Reform, Digital Capability"
     "unique_policies":
       - "name": "Procurement Act 2023"
-        "description": "Consolidated and simplified regime replacing EU-derived rules."
       - "name": "Social Value Act 2012"
-        "description": "Mandatory consideration of social/environmental/economic impact."
       - "name": "Sourcing Playbook"
-        "description": "Key guidance for complex projects, outsourcing, and insourcing decisions."
-    "digital_authority": "Central Digital and Data Office (CDDO)"
 
   - "@id": "region:EU"
     "name": "European Union"
@@ -27,9 +23,32 @@
   - "@id": "region:USA"
     "name": "United States"
     "focus": "Domestic Preference, Cybersecurity, RFO Principle-based shift"
+    "unique_policies":
+      - "name": "Buy American Act"
+      - "name": "FedRAMP / Cybersecurity Mandates"
+
+  - "@id": "region:Canada"
+    "name": "Canada"
+    "focus": "Indigenous Participation, Socio-Economic Outcomes, Best Value"
+    "unique_policies":
+      - "name": "Directive on the Management of Procurement (TBS)"
+        "description": "Ensures best value to the Crown while demonstrating stewardship of socio-economic objectives."
+      - "name": "5% Indigenous Procurement Target"
+        "description": "Mandatory requirement that 5% of federal contracts go to Indigenous businesses."
+      - "name": "CFTA (Canadian Free Trade Agreement)"
+        "description": "Internal trade rules prioritizing performance-based technical specifications (Article 509)."
+      - "name": "Canadian Value-Added"
+        "description": "Preference for domestic value-added in evaluation, typically up to 10% premium (CFTA 503.4)."
+
+  - "@id": "region:NewZealand"
+    "name": "New Zealand"
+    "focus": "Māori Economy, Social Outcomes"
+    "unique_policies":
+      - "name": "Te Kupenga Hao Pāuaua"
+        "description": "Progressive policy to support the Māori economy through social procurement."
 
 "cross_regional_themes":
-  - "theme": "Agile Readiness"
-    "uk": "High (Competitive Flexible Procedure)"
-    "usa": "High (TechFAR Hub / RFO discretionary power)"
-    "eu": "Moderate (Standardized MEAT frameworks)"
+  - "theme": "Indigenous/First Nations Inclusion"
+    "canada": "5% Mandatory Target"
+    "australia": "Indigenous Procurement Policy (IPP)"
+    "nz": "Te Kupenga Hao Pāuaua"

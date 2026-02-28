@@ -1,39 +1,35 @@
 "@context":
   "@vocab": "https://schema.org/"
   "proc": "https://example.org/procurement#"
-  "uk": "https://www.gov.uk/"
+  "far": "https://www.acquisition.gov/far/"
+  "tfh": "https://techfarhub.usds.gov/"
+  "tbs": "https://www.tbs-sct.canada.ca/"
 
 "@id": "https://example.org/procurement-digital-regulations"
 "@type": "Dataset"
-"name": "Digital Procurement Regulations: US & UK Comparison (2026)"
+"name": "Digital Procurement Regulations: Global Comparison (2026)"
 
-"uk_frameworks":
-  - "@id": "uk:TCoP"
-    "name": "Technology Code of Practice (TCoP)"
-    "description": "13-point standard for designing, building, and buying technology in government."
-    "key_points":
-      - "1. Define user needs"
-      - "2. Make things accessible and inclusive"
-      - "3. Be open and use open source"
-      - "4. Make use of open standards"
-      - "5. Use cloud first"
-      - "11. Define your purchasing strategy (Modular/Agile preference)"
+"usa_frameworks":
+  - "@id": "far:Part39"
+    "name": "FAR Part 39 - Acquisition of ICT"
+    "elements": ["Modular Contracting", "Section 508 Accessibility"]
+  - "@id": "tfh:lifecycle"
+    "name": "TechFAR Hub Agile Lifecycle"
+    "phases": ["Pre-Solicitation (Agile Teams)", "Solicitation", "Evaluation", "Administration"]
 
-  - "@id": "uk:ProcurementAct2023"
-    "name": "Procurement Act 2023"
-    "effective": "February 2025"
-    "reform_goals":
-      - "Competitive Flexible Procedure: Allows buyers to adapt processes to the market."
-      - "Central Digital Platform: Unified registration and tender access."
-      - "Removing SME Barriers: Explicit mandate to consider and reduce barriers for smaller providers."
+"canada_frameworks":
+  - "@id": "tbs:ProcurementDirective"
+    "name": "Directive on the Management of Procurement"
+    "digital_supports":
+      - "name": "Unbundling Requirements"
+        "description": "Legitimate division of requirements into smaller requirements to permit specialized firms to bid (TBS 4.3.4.5)."
+      - "name": "Performance-Based Specs"
+        "description": "Specifying requirements in terms of performance and functional requirements rather than design (CFTA 509.2)."
+      - "name": "Iterative Approaches"
+        "description": "Explicitly promoting outcomes-based and iterative approaches for complex needs (TBS 4.1.2.10)."
 
-"digital_standards_comparison":
-  - "theme": "Openness"
-    "usa": "Encouraged through RFO and TechFAR guidance."
-    "uk": "Mandatory via TCoP point 3 (Open Source) and 4 (Open Standards)."
-  - "theme": "Cloud"
-    "usa": "FedRAMP certification focus."
-    "uk": "Cloud First policy (evaluate cloud solutions before all other options)."
-  - "theme": "Modularity"
-    "usa": "Modular Contracting (FAR 39.002)."
-    "uk": "Lean Sourcing and 'Red Lines' (IT contracts capped at £100m)."
+"digital_workforce":
+  - "name": "FAC-C-Digital Services (USA)"
+    "description": "FAI specialization for digital procurement professionals."
+  - "name": "DITAP Training"
+    "description": "USDS-backed program for agile acquisition specialists."

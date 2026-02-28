@@ -1,10 +1,8 @@
 # Procurement Knowledge Graph & Visualizations
 
-This document provides a visual representation of how the various concepts, regulations, and regional policies in this repository fit together.
+This document provides a visual representation of the repository's information architecture.
 
 ## 1. Core Relationship Mind Map
-
-This diagram links the core principles to regional implementations and identifying outliers.
 
 ```mermaid
 graph TD
@@ -12,99 +10,59 @@ graph TD
     Principles((CORE PRINCIPLES))
     Fairness[Fairness]
     Transp[Transparency]
-    Equity[Equity]
-    Integrity[Integrity]
-    VfM[Value for Money]
+    Unbundling[Unbundling Requirements]
+    BestValue[Best Value to Crown]
 
     Principles --> Fairness
     Principles --> Transp
-    Principles --> Equity
-    Principles --> Integrity
-    Principles --> VfM
-
-    %% Engagement Calling Cards
-    Cards{Engagement Calling Cards}
-    Results[Results over Hours]
-    Respect[Respecting Supplier Time]
-    MarketShaper[Gov as Market Shaper]
-
-    Fairness -.-> Respect
-    VfM -.-> Results
-    Equity -.-> MarketShaper
+    Principles --> Unbundling
+    Principles --> BestValue
 
     %% Regional Implementations
     subgraph USA
-        FAR39[FAR Part 39 ICT]
-        RFO[Revolutionary FAR Overhaul]
-        BuyAm[Buy American Act]
+        FAR39[FAR Part 39]
+        RFO[FAR Overhaul]
     end
 
     subgraph UK
         TCoP[Tech Code of Practice]
         Act2023[Procurement Act 2023]
-        SocialValue[Social Value Act]
     end
 
-    subgraph CANZ
-        Indigenous[Indigenous Targets]
-        TeKupenga[Te Kupenga Hao Pāuaua]
+    subgraph Canada
+        TBS[TBS Directive]
+        CFTA[CFTA Chapter 5]
+        IndTarget[5% Indigenous Target]
+    end
+
+    subgraph New_Zealand
+        TeKupenga[Te Kupenga]
     end
 
     %% Linkages
+    Unbundling --- TBS
+    Unbundling --- FAR39
+    BestValue --- TBS
+    BestValue --- Act2023
+    Transp --- CFTA
     Transp --- RFO
-    Transp --- Act2023
-    MarketShaper --- SocialValue
-    MarketShaper --- Indigenous
-    MarketShaper --- TeKupenga
-    Results --- RFO
-    Results --- Act2023
-
-    %% Outliers
-    Intergen((Outlier: Intergenerational Well-being))
-    Beneficial((Outlier: Beneficial Ownership))
-
-    SocialValue -.-> Intergen
-    Integrity -.-> Beneficial
 
     %% Styling
     classDef principles fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef outliers fill:#fec,stroke:#f66,stroke-width:2px,stroke-dasharray: 5 5;
-    class Principles,Intergen,Beneficial outliers;
+    class Principles,IndTarget,TeKupenga principles;
 ```
 
 ## 2. Digital Lifecycle Comparison
 
-A comparison of how the US and UK define the path to "Better Procurement."
-
 ```mermaid
 graph LR
-    subgraph TechFAR Hub (USA)
-        US_Pre[Pre-Solicitation: Agile Teams]
-        US_Sol[Solicitation: Modular Design]
-        US_Ev[Evaluation: Demos/Comparative]
-        US_Adm[Administration: Quality Assurance]
-
-        US_Pre --> US_Sol --> US_Ev --> US_Adm
+    subgraph USA_TechFAR
+        US_Pre[Agile Teams] --> US_Sol[Modular Design] --> US_Ev[Demos]
     end
 
-    subgraph TCoP / Act 2023 (UK)
-        UK_Needs[Define User Needs]
-        UK_Open[Open Standards/Source]
-        UK_Flex[Competitive Flexible Procedure]
-        UK_Cloud[Cloud First / Social Value]
-
-        UK_Needs --> UK_Open --> UK_Flex --> UK_Cloud
+    subgraph Canada_TBS
+        CAN_Pl[Investment Planning] --> CAN_Un[Unbundling] --> CAN_It[Iterative/Phased]
     end
 
-    %% Inter-connections
-    US_Sol <--> UK_Open : "Open Standards Consensus"
-    US_Ev <--> UK_Flex : "Agile Evaluation Alignment"
+    US_Sol <--> CAN_Un : "Modular/Small Team Alignment"
 ```
-
-## 3. How to Read This Map
-
-- **Nodes**: Represent the concepts and datasets defined in the `docs/*.yamlld` files.
-- **Subgraphs**: Group regional specific regulations.
-- **Outliers (Orange Dotted)**: Highlight concepts like **Intergenerational Well-being** that are emerging but not yet part of the global regulatory consensus.
-- **Arrows**: Indicate "Flows into" or "Supports."
-- **Dash Lines**: Indicate conceptual relationships rather than direct regulatory mandates.
