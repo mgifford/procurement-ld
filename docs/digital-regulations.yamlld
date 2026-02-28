@@ -3,33 +3,40 @@
   "proc": "https://example.org/procurement#"
   "far": "https://www.acquisition.gov/far/"
   "tfh": "https://techfarhub.usds.gov/"
-  "tbs": "https://www.tbs-sct.canada.ca/"
 
 "@id": "https://example.org/procurement-digital-regulations"
 "@type": "Dataset"
-"name": "Digital Procurement Regulations: Global Comparison (2026)"
+"name": "Digital Procurement Regulations & Agile Frameworks (2026)"
+
+"digital_service_definition":
+  - "name": "Digital Services (USDS)"
+    "components":
+      - "Agile design and delivery"
+      - "User research and user-centered design"
+      - "Product management"
+      - "API development"
+      - "Automated testing"
+      - "Cloud infrastructure management"
+      - "CI/CD & DevOps"
+    "context": "Defined in TechFAR Hub 'Get Started'."
+
+"regulatory_mandates":
+  - "@id": "far:Threshold_13_500"
+    "name": "FAC-C (Professional) Mandatory DITAP"
+    "requirement": "Required for professionals assigned to digital service acquisitions over FAR 13.500(c) thresholds."
+    "credential": "FAC-C-Digital Services (FAC-C-DS)"
 
 "usa_frameworks":
   - "@id": "far:Part39"
     "name": "FAR Part 39 - Acquisition of ICT"
-    "elements": ["Modular Contracting", "Section 508 Accessibility"]
   - "@id": "tfh:lifecycle"
     "name": "TechFAR Hub Agile Lifecycle"
-    "phases": ["Pre-Solicitation (Agile Teams)", "Solicitation", "Evaluation", "Administration"]
+    "stages":
+      - "Pre-Solicitation (Agile Team, Market Research)"
+      - "Solicitation (Contract Design, 8(a) Initiative)"
+      - "Evaluation (Demo-based, Comparative Analysis)"
+      - "Administration (Agile QA, Course Correction)"
 
-"canada_frameworks":
-  - "@id": "tbs:ProcurementDirective"
-    "name": "Directive on the Management of Procurement"
-    "digital_supports":
-      - "name": "Unbundling Requirements"
-        "description": "Legitimate division of requirements into smaller requirements to permit specialized firms to bid (TBS 4.3.4.5)."
-      - "name": "Performance-Based Specs"
-        "description": "Specifying requirements in terms of performance and functional requirements rather than design (CFTA 509.2)."
-      - "name": "Iterative Approaches"
-        "description": "Explicitly promoting outcomes-based and iterative approaches for complex needs (TBS 4.1.2.10)."
-
-"digital_workforce":
-  - "name": "FAC-C-Digital Services (USA)"
-    "description": "FAI specialization for digital procurement professionals."
-  - "name": "DITAP Training"
-    "description": "USDS-backed program for agile acquisition specialists."
+"special_initiatives":
+  - "name": "8(a) Digital Service Initiative"
+    "description": "USDS & SBA partnership for low-risk gateway to small/diverse digital providers."

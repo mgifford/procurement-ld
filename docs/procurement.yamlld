@@ -9,15 +9,12 @@
 "name": "Mind Map of Concepts around Fair, Effective, Transparent and Equitable Procurement (2026 Perspective)"
 
 "resources":
-  - "@type": "Organization"
-    "name": "Treasury Board of Canada Secretariat (TBS)"
-    "url": "https://www.tbs-sct.canada.ca/"
-  - "@type": "Organization"
-    "name": "CFTA (Canadian Free Trade Agreement)"
-    "url": "https://www.cfta-alec.ca/"
-  - "@type": "Organization"
-    "name": "USDS TechFAR Hub"
+  - "@type": "WebSite"
+    "name": "TechFAR Hub"
     "url": "https://techfarhub.usds.gov/"
+  - "@type": "Organization"
+    "name": "Federal Acquisition Institute (FAI)"
+    "url": "https://www.fai.gov/"
 
 "core_principles":
   - "@id": "proc:Fairness"
@@ -28,28 +25,53 @@
     "name": "Transparency"
   - "@id": "proc:Equity"
     "name": "Equity"
-  - "@id": "proc:Unbundling"
-    "name": "Unbundling Requirements"
-    "definition": "Dividing requirements to permit smaller and more specialized firms to bid."
-    "reference": "TBS Directive 4.3.4.5"
-  - "@id": "proc:BestValueToCrown"
-    "name": "Best Value to the Crown"
-    "definition": "Balancing quality and effectiveness with outlay over the period of use, including socio-economic goals."
-    "source": "TBS"
+  - "@id": "proc:Professionalization"
+    "name": "Workforce Professionalization"
+    "description": "Equipping professionals with specialized credentials like FAC-C-DS."
 
-"engagement_calling_cards":
-  - "name": "Results over Hours"
-  - "name": "Indigenous Participation First"
-  - "name": "Unbundling for SMEs"
-    "concept": "proc:Unbundling"
+"ditap_performance_outcomes":
+  - "@id": "ditap:Outcome1"
+    "name": "Describe Digital Services"
+    "description": "Describe 21st-century digital services, who provides them, and why they are important."
+  - "@id": "ditap:Outcome2"
+    "name": "Determine Problem & Stakeholders"
+    "description": "Determine the problem to be solved while communicating with customer and industry."
+  - "@id": "ditap:Outcome3"
+    "name": "Effective Buying Techniques"
+    "description": "Use techniques for acquiring digital service solutions in solicitation/acquisition strategy."
+  - "@id": "ditap:Outcome4"
+    "name": "Award & Administer"
+    "description": "Conduct and award contracts using metrics/incentives and applying course correction."
+  - "@id": "ditap:Outcome5"
+    "name": "Leading Change"
+    "description": "Apply techniques to create a culture of innovation and influence customers."
+  - "@id": "ditap:Outcome6"
+    "name": "Application of Skills"
+    "description": "Apply techniques through shadowing real-world digital service experts."
 
 "modern_concepts_2026":
+  - "@id": "proc:FAC-C-DS"
+    "name": "FAC-C-Digital Services"
+    "description": "Specialization required for digital service contracts over FAR 13.500(c) thresholds."
+  - "@id": "proc:AgileLifecycle"
+    "name": "Agile Acquisition Lifecycle"
+    "source": "TechFAR Hub"
   - "@id": "proc:ModularContracting"
-  - "@id": "proc:IterativeAcquisition"
-    "name": "Iterative Acquisition"
-    "description": "Using phases, gates, and off-ramps to allow flexibility in complex projects."
-    "source": "TBS"
-  - "@id": "proc:CanadianValueAdded"
-    "name": "Canadian Value-Added"
-    "description": "Preference for domestic labor and production in evaluation."
-    "source": "CFTA Article 503.4"
+  - "@id": "proc:MarketShaper"
+    "name": "Government as Market Shaper"
+
+"ditap_mappings":
+  - "ditap_module": "Module 1: Digital Services"
+    "mapped_outcomes": ["ditap:Outcome1"]
+    "mapped_concepts": ["proc:MarketShaper", "proc:Professionalization"]
+  - "ditap_module": "Module 2: Market Intel"
+    "mapped_outcomes": ["ditap:Outcome2"]
+    "mapped_concepts": ["proc:Transparency"]
+  - "ditap_module": "Module 3: How Do You Buy"
+    "mapped_outcomes": ["ditap:Outcome3"]
+    "mapped_concepts": ["proc:ModularContracting", "proc:AgileLifecycle"]
+  - "ditap_module": "Module 4: Award & Admin"
+    "mapped_outcomes": ["ditap:Outcome4"]
+    "mapped_concepts": ["proc:Effectiveness"]
+  - "ditap_module": "Module 5: Leading Change"
+    "mapped_outcomes": ["ditap:Outcome5"]
