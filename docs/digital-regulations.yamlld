@@ -1,0 +1,50 @@
+"@context":
+  "@vocab": "https://schema.org/"
+  "proc": "https://example.org/procurement#"
+  "far": "https://www.acquisition.gov/far/"
+
+"@id": "https://example.org/procurement-digital-regulations"
+"@type": "Dataset"
+"name": "Digital Procurement Regulations & Agile Frameworks (2026)"
+"description": "Mapping of US Federal Acquisition Regulations (FAR) and the Revolutionary FAR Overhaul (RFO) to agile and modular digital procurement practices."
+
+"regulatory_frameworks":
+  - "@id": "far:Part39"
+    "name": "FAR Part 39 - Acquisition of Information and Communication Technology (ICT)"
+    "status": "Renamed & Overhauled 2025"
+    "key_elements":
+      - "name": "Modular Contracting"
+        "definition": "Acquiring systems in successive, interoperable increments to reduce risk and deliver value faster."
+        "reference": "FAR 39.002"
+      - "name": "Risk Management vs Avoidance"
+        "description": "Shift in focus toward managing technical and performance risks through iterative delivery."
+      - "name": "Accessibility (Section 508)"
+        "description": "Enforceable standards for ICT to ensure inclusive design for all users."
+
+  - "@id": "far:RFO"
+    "name": "Revolutionary FAR Overhaul (RFO)"
+    "vision": "Restoring Common Sense to Federal Procurement"
+    "features":
+      - "name": "Principle-Based over Rule-Based"
+        "description": "Streamlining the FAR to its statutory roots and moving detailed 'how-to' guidance to external buying guides."
+      - "name": "Plain Language Rewrite"
+        "description": "Removing onerous bureaucracy to allow for faster acquisitions and greater competition."
+      - "name": "Outcome-Oriented"
+        "description": "Prioritizing mission effectiveness and results over strict procedural compliance."
+
+"agile_digital_supports":
+  - "name": "Modular Contracting for Small Teams"
+    "description": "Distributing large projects into smaller contracts managed by coordinated, cross-functional teams."
+    "benefit": "Prevents vendor lock-in and increases agency control over the digital product."
+  - "name": "Open Source & Open Standards"
+    "policy": "Encouraged to ensure interoperability between successive increments."
+    "related_concept": "proc:OpenStandards"
+  - "name": "Phased Evaluations"
+    "description": "Down-selecting vendors based on practical demonstrations or 'tech challenges' before full proposal submission."
+    "reference": "DITAP Methodology"
+
+"ditap_alignment":
+  - "module": "Module 3: How Do You Buy?"
+    "focus": "Using modular contracting and agile techniques within the FAR framework."
+  - "module": "Module 1: Digital Services"
+    "focus": "Understanding the shift toward ICT and emerging technologies (IoT, AI)."

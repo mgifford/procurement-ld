@@ -12,33 +12,23 @@ Modern government procurement is built on a foundation of integrity and value. T
 - **Equity & Sustainability**: Using procurement to address systemic barriers and promote long-term societal well-being.
 - **Integrity**: Upholding high ethical standards to combat corruption and ensure responsible spending.
 
-## Engagement Calling Cards
+## Digital Procurement & US Federal Regulations
 
-Folks engage with modern procurement through these high-level "calling cards":
+Digital procurement is a critical focus, with specific regulatory support for agile and modular practices:
 
-- **Results over Hours**: Shifting the conversation from inputs/credentials to actual problems solved.
-- **Government as Market Shaper**: Using buying power to drive accessibility, resilience, and economic innovation.
-- **Respecting Supplier Time**: Designing efficient, unbiased processes that don't waste market resources on unwinnable bids.
-- **Proactive Disclosure**: Openly sharing selection criteria and results to ensure the "rules of the game" are clear.
-
-## Global Comparative Analysis
-
-Procurement practices vary by region, reflecting different geopolitical and social priorities.
-
-- **[Comparative Analysis (YAML-LD)](docs/comparative-analysis.yamlld)**: Structured data on regional policy drivers (e.g., Buy American, Indigenous Targets, EU Green Procurement).
-- **[Agreement & Disagreement Analysis](docs/agreement-analysis.md)**: A summary of global consensus vs. regional divergence (e.g., Open Markets vs. Domestic Preference).
+- **Modular Contracting**: Acquiring systems in successive, interoperable increments (FAR Part 39). This reduces risk and allows work to be distributed to small, coordinated teams.
+- **Revolutionary FAR Overhaul (RFO)**: A major shift from "Rule-Based" to **"Principle-Based"** procurement, prioritizing mission effectiveness and common sense.
+- **Open Standards & Open Source**: Prioritizing non-proprietary solutions to prevent vendor lock-in and ensure long-term sovereignty.
+- **Phased Evaluations**: Moving toward "tech challenges" and practical demonstrations rather than just paper proposals.
 
 ## Structure
 
 The core information is organized in a [YAML-LD](https://yaml-ld.org/) document located at `docs/procurement.yamlld`.
 
-The document includes:
-- **@context**: Mapping terms to global ontologies.
-- **Resources**: Credible sources for modern procurement.
-- **Core Principles**: Detailed definitions of foundational concepts.
-- **Engagement Calling Cards**: High-level engagement themes.
-- **Modern Concepts 2026**: Highlighting trends like "Sovereign Capability" and "Specialist Ecosystems".
-- **DITAP Mappings**: Connecting these concepts to the [DITAP curriculum modules](https://github.com/usds/ditap-curriculum-update/).
+- **[Main Mind Map](docs/procurement.yamlld)**: Concepts, Principles, and DITAP Mappings.
+- **[Digital Regulations Map](docs/digital-regulations.yamlld)**: Specific deep-dive into FAR Part 39 and RFO updates.
+- **[Global Comparative Analysis](docs/comparative-analysis.yamlld)**: Regional data on policy drivers.
+- **[Agreement & Disagreement Analysis](docs/agreement-analysis.md)**: Global consensus vs. regional divergence.
 
 ## Credible Resources
 
@@ -46,14 +36,14 @@ The document includes:
 - **Posterity Global**: [User-centered and agile procurement](https://www.posterity.global/).
 - **Open Contracting Partnership**: [Global transparency standards](https://www.open-contracting.org/).
 - **USDS DITAP**: [Digital IT Acquisition Professional Training](https://github.com/usds/ditap-curriculum-update/).
-- **PQAR**: [Global standards for public procurement quality](https://pqar.org/public/).
+- **Acquisition.gov**: [Federal Acquisition Regulation (FAR)](https://www.acquisition.gov/browse/index/far) and [FAR Overhaul](https://www.acquisition.gov/far-overhaul).
 
 ## How to Contribute & Absorb Knowledge
 
 This mind map is designed to evolve. To add new insights from articles or research:
 
 1.  **Identify the Concept**: Determine the core idea (e.g., "Sovereign Capability").
-2.  **Update the YAML-LD**: Add it to `docs/procurement.yamlld` or `docs/comparative-analysis.yamlld`.
+2.  **Update the YAML-LD**: Add it to `docs/procurement.yamlld` or the specific deep-dive documents.
 3.  **Map it**: Update `ditap_mappings` or `engagement_calling_cards` if relevant.
 4.  **Verify**: Run `python3 -c "import yaml; yaml.safe_load(open('docs/procurement.yamlld'))"`.
 5.  **Submit**: Create a pull request to share your findings.
