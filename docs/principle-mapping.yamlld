@@ -1,0 +1,51 @@
+"@context":
+  "@vocab": "https://schema.org/"
+  "proc": "https://example.org/procurement#"
+  "ditap": "https://github.com/usds/ditap-curriculum-update#"
+  "far": "https://www.acquisition.gov/far/"
+  "tcop": "https://www.gov.uk/guidance/the-technology-code-of-practice"
+
+"@id": "https://example.org/procurement-principle-mapping"
+"@type": "Dataset"
+"name": "Cross-Document Principle Mapping (RFO, OBP, DITAP)"
+"description": "Abstracted procurement approaches that bridge the gap between high-level principles and specific regulatory/curriculum documents."
+
+"bridging_approaches":
+  - "name": "Principle-Led Discretion"
+    "description": "Empowering contracting officers to use professional judgment over strict compliance."
+    "maps_to":
+      "rfo": "Shift from Rule-Based to Principle-Based."
+      "ditap": "Outcome 5: Leading Change / Culture of Innovation."
+      "uk_tcop": "Point 11: Define your purchasing strategy."
+      "obp": "Moving from 'Checking the Box' to 'Solving the Problem'."
+
+  - "name": "Iterative Value Delivery"
+    "description": "Focusing on rapid, successive increments of value rather than monolithic delivery."
+    "maps_to":
+      "far_39": "Modular Contracting (successive, interoperable increments)."
+      "ditap": "Outcome 3: Effective Buying Techniques (Agile/Iterative)."
+      "obp": "Performance-based adjustments throughout the lifecycle."
+      "tbs_canada": "Iterative Acquisition (Phases/Gates)."
+
+  - "name": "Outcome-Oriented Specifications"
+    "description": "Defining requirements based on problems to be solved rather than prescriptive designs."
+    "maps_to":
+      "rfo": "Mission-effectiveness and results-first framing."
+      "ditap": "Outcome 2: Determine Problem & Stakeholders."
+      "uk_tcop": "Point 1: Define user needs."
+      "obp": "Core Tenet: Buying results, not hours."
+
+  - "name": "Market Shaping & Sovereignty"
+    "description": "Using spend to drive national capability, accessibility, and local economic resilience."
+    "maps_to":
+      "usa": "Sovereign Capability / Buy American."
+      "canada": "5% Indigenous Target / Canadian Value-Added."
+      "uk": "Social Value Act / MAT (Most Advantageous Tender)."
+      "accessibility": "Section 508 / EN 301 549 consensus."
+
+  - "name": "Interoperable Openness"
+    "description": "Avoiding vendor lock-in through mandatory open standards and source-code transparency."
+    "maps_to":
+      "uk_tcop": "Point 3 (Open Source) & Point 4 (Open Standards)."
+      "far_39": "Requirement for interoperability between modular increments."
+      "ditap": "Outcome 1: Describe Digital Services (Interoperability/API)."

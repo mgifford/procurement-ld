@@ -5,28 +5,29 @@ This repository contains a mind map of concepts around fair, effective, transpar
 ## Information Architecture
 
 ### **[Interactive Visualizations & Knowledge Graph](docs/visualizations.md)**
-View the **DITAP Competency & TechFAR Lifecycle Map** and global comparisons.
+View the **Conceptual Bridge** diagram that connects the US FAR Overhaul (RFO), Outcome-Based Procurement (OBP), and DITAP curriculum.
 
-## Digital Procurement & USDS Alignment
+## Cross-Document Mapping
 
-Digital procurement in the US federal space is driven by the **United States Digital Service (USDS)** and the **Federal Acquisition Institute (FAI)**:
+A key feature of this repository is the ability to connect high-level principles to specific regulatory and training documents through "Bridging Approaches":
 
-- **FAC-C-Digital Services (FAC-C-DS)**: A mandatory specialization for contracting professionals assigned to digital service acquisitions over the **FAR 13.500(c)** threshold.
-- **DITAP**: The core training program designed to create "change ambassadors" capable of executing modern, agile digital procurements.
-- **TechFAR Hub**: The central resource for implementing agile techniques (Modular Contracting, User Research, Tech Challenges) within the FAR framework.
+- **Principle-Led Discretion**: Maps the **RFO's** shift from rule-based to principle-based systems to **DITAP's** Outcome 5 (Leading Change).
+- **Iterative Value Delivery**: Connects **FAR Part 39's** modular contracting to **DITAP's** agile buying techniques and iterative outcomes.
+- **Outcome-Oriented Specifications**: Bridges the core tenet of **Outcome-Based Procurement** ("Results over Hours") to **DITAP's** Outcome 2 (Determining the Problem).
+- **Market Shaping**: Links regional policies (UK Social Value, Canadian Indigenous Targets) to the global accessibility and sovereignty consensus.
 
 ## Structure
 
-- **[Main Mind Map (YAML-LD)](docs/procurement.yamlld)**: Concepts, Principles, and **DITAP Performance Outcomes**.
-- **[Digital Regulations Map (YAML-LD)](docs/digital-regulations.yamlld)**: Deep-dive into US (FAR/USDS) and UK (TCoP) digital standards.
+- **[Main Mind Map (YAML-LD)](docs/procurement.yamlld)**: Concepts, Principles, and DITAP Performance Outcomes.
+- **[Principle Mapping (YAML-LD)](docs/principle-mapping.yamlld)**: The "Conceptual Bridge" between RFO, OBP, and DITAP.
+- **[Digital Regulations Map (YAML-LD)](docs/digital-regulations.yamlld)**: US (FAR/USDS) and UK (TCoP) digital standards.
 - **[Global Comparative Analysis (YAML-LD)](docs/comparative-analysis.yamlld)**: Regional breakdowns (USA, UK, Canada, NZ).
-- **[Agreement & Disagreement Analysis](docs/agreement-analysis.md)**: Global consensus vs. regional divergence.
 
 ## How to Contribute & Absorb Knowledge
 
 This mind map is designed to evolve. To add new insights:
 
 1.  **Identify the Concept**: Determine the core idea.
-2.  **Update the YAML-LD**: Add it to the appropriate section in `docs/`.
-3.  **Verify**: Run `python3 -c "import yaml; yaml.safe_load(open('docs/procurement.yamlld'))"`.
+2.  **Update the YAML-LD**: Add it to the appropriate document in `docs/`.
+3.  **Verify**: Run `python3 -c "import yaml; [yaml.safe_load(open(f)) for f in ['docs/procurement.yamlld', 'docs/principle-mapping.yamlld']]"`
 4.  **Submit**: Create a pull request to share your findings.
