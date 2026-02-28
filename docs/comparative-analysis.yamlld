@@ -1,0 +1,66 @@
+"@context":
+  "@vocab": "https://schema.org/"
+  "proc": "https://example.org/procurement#"
+  "region": "https://example.org/regions#"
+
+"@id": "https://example.org/procurement-comparative-analysis"
+"@type": "Dataset"
+"name": "Global Procurement Policy Comparative Analysis (2026)"
+"description": "A breakdown of procurement best practices and unique policy drivers by region, country, and subnational entities."
+
+"regions":
+  - "@id": "region:EuropeanUnion"
+    "name": "European Union"
+    "focus": "Highly Regulated, Open Single Market, Sustainability"
+    "unique_policies":
+      - "name": "MEAT (Most Economically Advantageous Tender)"
+        "description": "Standardized criteria for balancing price, quality, and sustainability."
+      - "name": "Green Public Procurement (GPP)"
+        "description": "Mandatory environmental criteria for specific sectors."
+    "agreement_level": "High on Transparency and Competition"
+
+  - "@id": "region:CANZ"
+    "name": "Canada, Australia, New Zealand"
+    "focus": "Equitable Inclusion, Indigenous Participation, Economic Shaping"
+    "countries":
+      - "name": "Australia"
+        "policies":
+          - "name": "Indigenous Procurement Policy (IPP)"
+            "description": "Mandatory targets for spend with Indigenous-owned businesses."
+          - "name": "Buy Australian Plan"
+            "description": "Support for First Nations businesses and local supply chain resilience."
+      - "name": "New Zealand"
+        "policies":
+          - "name": "Te Kupenga Hao Pāuaua"
+            "description": "Supporting the Māori economy through social procurement and direct targets."
+      - "name": "Canada"
+        "policies":
+          - "name": "5% Indigenous Procurement Target"
+            "description": "Mandate to award at least 5% of federal contracts to Indigenous businesses."
+    "agreement_level": "Global leaders in Social Equity and Reconciliation-driven procurement."
+
+  - "@id": "region:USA"
+    "name": "United States"
+    "focus": "Domestic Preference, Cybersecurity, Small Business Support"
+    "unique_policies":
+      - "name": "Buy American Act"
+        "description": "Strong preference for domestic goods and services to protect the industrial base."
+      - "name": "FedRAMP / Cybersecurity Mandates"
+        "description": "Extremely strict requirements for digital infrastructure and software security."
+    "agreement_level": "Diverges on Open Markets in favor of Domestic Resilience."
+
+"subnational_leaders":
+  - "name": "California"
+    "focus": "Climate Accountability, Tech Innovation"
+  - "name": "New South Wales (NSW)"
+    "focus": "Outcome-Based Procurement, SME Engagement"
+  - "name": "Ontario"
+    "focus": "Supply Chain Centralization, Ethical Sourcing"
+
+"city_innovators":
+  - "name": "New York City"
+    "focus": "M/WBE (Minority and Women-owned Business Enterprises) Equity"
+  - "name": "London"
+    "focus": "Social Value Portal, Net Zero Targets"
+  - "name": "Toronto"
+    "focus": "Social Procurement Policy, Community Benefits"

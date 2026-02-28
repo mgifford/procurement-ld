@@ -21,6 +21,13 @@ Folks engage with modern procurement through these high-level "calling cards":
 - **Respecting Supplier Time**: Designing efficient, unbiased processes that don't waste market resources on unwinnable bids.
 - **Proactive Disclosure**: Openly sharing selection criteria and results to ensure the "rules of the game" are clear.
 
+## Global Comparative Analysis
+
+Procurement practices vary by region, reflecting different geopolitical and social priorities.
+
+- **[Comparative Analysis (YAML-LD)](docs/comparative-analysis.yamlld)**: Structured data on regional policy drivers (e.g., Buy American, Indigenous Targets, EU Green Procurement).
+- **[Agreement & Disagreement Analysis](docs/agreement-analysis.md)**: A summary of global consensus vs. regional divergence (e.g., Open Markets vs. Domestic Preference).
+
 ## Structure
 
 The core information is organized in a [YAML-LD](https://yaml-ld.org/) document located at `docs/procurement.yamlld`.
@@ -46,7 +53,7 @@ The document includes:
 This mind map is designed to evolve. To add new insights from articles or research:
 
 1.  **Identify the Concept**: Determine the core idea (e.g., "Sovereign Capability").
-2.  **Update the YAML-LD**: Add it to `docs/procurement.yamlld` in the appropriate section.
+2.  **Update the YAML-LD**: Add it to `docs/procurement.yamlld` or `docs/comparative-analysis.yamlld`.
 3.  **Map it**: Update `ditap_mappings` or `engagement_calling_cards` if relevant.
 4.  **Verify**: Run `python3 -c "import yaml; yaml.safe_load(open('docs/procurement.yamlld'))"`.
 5.  **Submit**: Create a pull request to share your findings.
