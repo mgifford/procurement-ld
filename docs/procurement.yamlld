@@ -1,0 +1,82 @@
+"@context":
+  "@vocab": "https://schema.org/"
+  "proc": "https://example.org/procurement#"
+  "ditap": "https://github.com/usds/ditap-curriculum-update#"
+  "purpose": "https://www.procurementwithpurpose.com#"
+
+"@id": "https://example.org/procurement-mind-map"
+"@type": "ConceptScheme"
+"name": "Mind Map of Concepts around Fair, Effective, Transparent and Equitable Procurement (2026 Perspective)"
+"description": "A comprehensive mapping of modern procurement concepts for government, focusing on purpose, socio-economic impact, and digital transformation."
+
+"resources":
+  - "@type": "Book"
+    "name": "Procurement with Purpose"
+    "author": "Peter Smith & Mark Perera"
+    "url": "https://www.procurementwithpurpose.com/"
+    "description": "Focuses on using spend to drive environmental, social, and economic benefits."
+  - "@type": "Organization"
+    "name": "Posterity Global"
+    "url": "https://www.posterity.global/"
+    "description": "Modernising procurement for public sectors, emphasizing user-centered and agile procurement."
+  - "@type": "Organization"
+    "name": "TandemGov"
+    "url": "https://www.tandemgov.com/"
+    "description": "Helping organizations navigate government contracting through acquisition coaching and growth strategy."
+  - "@type": "Project"
+    "name": "DITAP Curriculum"
+    "url": "https://github.com/usds/ditap-curriculum-update/"
+    "description": "Digital IT Acquisition Professional Training Program focused on modern technology procurement."
+
+"core_principles":
+  - "@id": "proc:Fairness"
+    "name": "Fairness"
+    "definition": "Ensuring equal opportunity for all qualified suppliers and avoiding bias."
+  - "@id": "proc:Effectiveness"
+    "name": "Effectiveness"
+    "definition": "Delivering intended outcomes and value for money over the lifecycle."
+  - "@id": "proc:Transparency"
+    "name": "Transparency"
+    "definition": "Openness in processes, data, and decision-making to build public trust."
+  - "@id": "proc:Equity"
+    "name": "Equity"
+    "definition": "Addressing systemic barriers and promoting inclusion of marginalized or underrepresented groups."
+
+"modern_concepts_2026":
+  - "@id": "proc:ShapingEconomies"
+    "name": "Government as Market Shaper"
+    "description": "Government using its buying power to influence market behavior, drive innovation, and support local economies."
+    "related": ["purpose:EconomicImpact", "proc:SustainableDevelopment"]
+  - "@id": "proc:Accessibility"
+    "name": "Accessibility as a Driver"
+    "description": "Procurement requirements for accessible software shift the industry toward inclusive design."
+    "context": "Mandatory in many countries, influencing software creation globally."
+  - "@id": "proc:AIProcurement"
+    "name": "AI-Augmented Procurement"
+    "description": "Using AI for contract analysis, spend optimization, and risk identification, while maintaining human oversight."
+    "source": "Posterity Global 2025 AI Procurement Report"
+  - "@id": "proc:AgileProcurement"
+    "name": "User-Centered and Agile Procurement"
+    "description": "Borrowing techniques from digital product development to make procurement faster and more responsive."
+    "source": "Posterity Global"
+  - "@id": "proc:Resilience"
+    "name": "Regional Resilience"
+    "description": "Prioritizing supply chain stability and regional security over lowest-cost global optimization."
+
+"ditap_mappings":
+  - "ditap_module": "Module 1: Digital Services in the 21st Century Government"
+    "mapped_concepts": ["proc:Fairness", "proc:Accessibility", "proc:ShapingEconomies"]
+  - "ditap_module": "Module 2: Market Intelligence & Stakeholder Analysis"
+    "mapped_concepts": ["proc:Transparency", "proc:AIProcurement"]
+  - "ditap_module": "Module 3: How Do You Buy?"
+    "mapped_concepts": ["proc:AgileProcurement", "proc:Effectiveness"]
+  - "ditap_module": "Module 4: Awarding & Administering"
+    "mapped_concepts": ["proc:Equity", "proc:Resilience"]
+
+"outliers_and_emerging":
+  - "name": "Intergenerational Well-being"
+    "source": "Posterity Global"
+    "note": "Looking beyond current needs to future generations."
+  - "name": "Open, Interoperable Ecosystems"
+    "source": "SOVRA 2026 Trends"
+    "note": "Moving away from vendor lock-in toward modular, connected systems."
