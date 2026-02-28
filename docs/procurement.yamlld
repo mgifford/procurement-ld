@@ -8,7 +8,7 @@
 "@id": "https://example.org/procurement-mind-map"
 "@type": "ConceptScheme"
 "name": "Mind Map of Concepts around Fair, Effective, Transparent and Equitable Procurement (2026 Perspective)"
-"description": "A comprehensive mapping of modern procurement concepts for government, focusing on purpose, outcome-based approaches, and agile digital transformation."
+"description": "A comprehensive mapping of modern procurement concepts for government, focusing on purpose, outcome-based approaches, and professionalized digital transformation."
 
 "resources":
   - "@type": "Book"
@@ -28,11 +28,11 @@
     "name": "Open Contracting Partnership"
     "url": "https://www.open-contracting.org/"
   - "@type": "WebSite"
-    "name": "FAR Part 39 (ICT)"
-    "url": "https://www.acquisition.gov/far/part-39"
-  - "@type": "WebSite"
-    "name": "Revolutionary FAR Overhaul (RFO)"
-    "url": "https://www.acquisition.gov/far-overhaul"
+    "name": "TechFAR Hub"
+    "url": "https://techfarhub.usds.gov/"
+  - "@type": "Organization"
+    "name": "Federal Acquisition Institute (FAI)"
+    "url": "https://www.fai.gov/"
 
 "core_principles":
   - "@id": "proc:Fairness"
@@ -47,54 +47,43 @@
   - "@id": "proc:Equity"
     "name": "Equity"
     "definition": "Addressing systemic barriers and promoting inclusion of marginalized groups."
-  - "@id": "proc:Integrity"
-    "name": "Integrity"
-    "definition": "Upholding high ethical standards and combating corruption."
-  - "@id": "proc:Accountability"
-    "name": "Accountability"
-    "definition": "Clear responsibility for procurement decisions and spending outcomes."
-  - "@id": "proc:ModularContracting"
-    "name": "Modular Contracting"
-    "definition": "Use of one or more contracts to acquire systems in successive, interoperable increments."
-    "reference": "FAR 39.002"
+  - "@id": "proc:Professionalization"
+    "name": "Workforce Professionalization"
+    "definition": "Equipping acquisition professionals with modern skills, agile methodologies, and specialized credentials."
+    "related": ["proc:FAC-C-DS"]
 
 "engagement_calling_cards":
   - "name": "Results over Hours"
     "concept": "proc:OutcomeBased"
     "description": "Engaging with procurement based on what is solved, not just effort spent."
-  - "name": "Proactive Disclosure"
-    "concept": "proc:OpenContracting"
-    "description": "Publishing data across the whole cycle to build trust and accountability."
   - "name": "Modular & Agile"
     "concept": "proc:ModularContracting"
     "description": "Distributing work to small coordinated teams via interoperable increments."
+  - "name": "Professionalized Buying"
+    "concept": "proc:Professionalization"
+    "description": "Engaging with DITAP-certified professionals who understand digital markets."
 
 "modern_concepts_2026":
+  - "@id": "proc:FAC-C-DS"
+    "name": "FAC-C-Digital Services"
+    "description": "The Federal Acquisition Certification in Contracting specialization for digital services."
+  - "@id": "proc:AgileLifecycle"
+    "name": "Agile Acquisition Lifecycle"
+    "description": "Applying agile principles across Pre-Solicitation, Solicitation, Evaluation, and Administration."
+    "source": "TechFAR Hub"
+  - "@id": "proc:ModularContracting"
+    "name": "Modular Contracting"
+    "description": "Acquiring systems in successive, interoperable increments."
   - "@id": "proc:ShapingEconomies"
     "name": "Government as Market Shaper"
-    "description": "Government using its buying power to influence market behavior, drive innovation, and support local economies."
-  - "@id": "proc:OutcomeBased"
-    "name": "Outcome-Based Procurement"
-    "description": "Focusing on clarity of results and problems solved rather than cost or credentials of hours."
-  - "@id": "proc:Accessibility"
-    "name": "Accessibility as a Driver"
-    "description": "Procurement requirements for accessible software shift the industry toward inclusive design."
-  - "@id": "proc:SovereignCapability"
-    "name": "Sovereign Capability"
-    "description": "Reassessing who builds, hosts, and secures critical digital infrastructure."
-  - "@id": "proc:OpenStandards"
-    "name": "Open Standards & Open Source"
-    "description": "Prioritizing non-proprietary solutions to avoid vendor lock-in and enable team coordination."
-  - "@id": "proc:AIProcurement"
-    "name": "AI-Augmented Procurement"
-    "description": "Using AI for analysis and risk identification while maintaining human oversight."
+    "description": "Government using its buying power to influence market behavior."
 
 "ditap_mappings":
   - "ditap_module": "Module 1: Digital Services in the 21st Century Government"
-    "mapped_concepts": ["proc:Fairness", "proc:Accessibility", "proc:ShapingEconomies", "proc:ModularContracting"]
+    "mapped_concepts": ["proc:Fairness", "proc:Accessibility", "proc:ShapingEconomies", "proc:Professionalization"]
   - "ditap_module": "Module 2: Market Intelligence & Stakeholder Analysis"
-    "mapped_concepts": ["proc:Transparency", "proc:AIProcurement", "proc:OpenStandards"]
+    "mapped_concepts": ["proc:Transparency", "proc:AIProcurement", "proc:SpecialistEcosystems"]
   - "ditap_module": "Module 3: How Do You Buy?"
-    "mapped_concepts": ["proc:AgileProcurement", "proc:Effectiveness", "proc:OutcomeBased"]
+    "mapped_concepts": ["proc:AgileLifecycle", "proc:ModularContracting", "proc:OutcomeBased"]
   - "ditap_module": "Module 4: Awarding & Administering"
     "mapped_concepts": ["proc:Equity", "proc:Integrity", "proc:SovereignCapability"]
